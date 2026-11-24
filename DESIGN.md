@@ -1,0 +1,3 @@
+# Design Rationale
+
+I decided to separate my Python code into different files to make it easier to understand and maintain. The `cli.py` file handles the commands, `services.py` calculates income, expenses, and balance, `validation.py` checks user inputs, `storage.py` saves and loads transactions, and `models.py` creates transaction dictionaries. This structure allows me to modify and test each part without changing the entire program.
